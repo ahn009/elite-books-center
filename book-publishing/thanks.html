@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link rel="icon" href="images/Mexa.webp" type="image/x-icon" />
+    <!-- <link href="css/animate.css" rel="stylesheet"> -->
+    <link href="fontawesome5/css/all.min.css" rel="stylesheet" />
+    <link href="slick/slick-theme.css" rel="stylesheet" type="text/css" />
+    <link href="slick/slick.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="css/slicknav.css" rel="stylesheet" type="text/css"> -->
+
+    <!-- <link href="css/fancybox.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link rel="preconnect" href="fancybox.css"> -->
+    <!-- <script src="fancybox.umd.js"></script> -->
+    <!-- <link rel="stylesheet" href="fancybox.css" /> -->
+    <!-- <link href="css/bootstrap.css" rel="stylesheet"> -->
+    <!-- bootstrap -->
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet preload"
+      as="style"
+      type="text/css"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <link href="css/custom.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="../../../cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" /> -->
+    <title>
+      Book Publishing Services - Get Your Book Published by expert Book
+      Publishers - Free Consultation
+    </title>
+  </head>
+
+  <body>
+    <style>
+      /* Basic styles for the popup form */
+      .popup {
+        display: none;
+        /* Hidden by default */
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        /* Semi-transparent background */
+        z-index: 1000;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        /* Start hidden */
+        transition: opacity 0.5s ease;
+        /* Smooth fade-in effect */
+      }
+
+      .popup.show {
+        display: flex;
+        opacity: 1;
+        /* Show popup */
+      }
+
+      .popup-content {
+        background-image: url(images/minimalist-background-gradient-design-style_483537-2984.webp);
+        /* White background */
+        color: #000000;
+        /* Black text */
+        padding: 20px;
+        border-radius: 8px;
+        width: 90%;
+        /* Responsive width */
+        max-width: 500px;
+        /* Max width for larger screens */
+        text-align: center;
+        position: relative;
+        transform: translateY(-50px);
+        /* Start slightly offscreen */
+        transition: transform 0.5s ease;
+        /* Smooth slide-in effect */
+        overflow-y: auto;
+        /* Enable vertical scrolling */
+        max-height: 80vh;
+        /* Limit height for mobile devices */
+        background-size: contain;
+      }
+
+      .popup.show .popup-content {
+        transform: translateY(0);
+        /* Slide to final position */
+      }
+
+      .close-btn {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+        font-size: 24px;
+        color: #000000;
+        /* Black color for close button */
+      }
+
+      h2 {
+        color: #ffffff;
+        font-family: cursive;
+      }
+
+      p {
+        color: #333333;
+        /* Dark grey text for paragraph */
+      }
+
+      label {
+        display: block;
+        margin-top: 10px;
+        text-align: left;
+        color: #ffffff;
+        /* Black text for labels */
+      }
+
+      input,
+      textarea {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #dddddd;
+        /* Light grey border */
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+
+      textarea {
+        resize: vertical;
+        /* Allow vertical resizing only */
+      }
+
+      button {
+        background-color: #0033cc;
+        /* Blue background */
+        border: none;
+        color: #ffffff;
+        /* White text */
+        padding: 10px 20px;
+        text-align: center;
+        font-size: 16px;
+        margin-top: 10px;
+        cursor: pointer;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+        /* Smooth color transition */
+      }
+
+      button:hover {
+        background-color: #0077b5;
+        /* Darker blue for hover effect */
+      }
+
+      /* Responsive design */
+      @media (max-width: 600px) {
+        .popup-content {
+          width: 95%;
+          /* Adjust width for smaller screens */
+          padding: 15px;
+          max-height: 90vh;
+          /* More height available on smaller screens */
+        }
+
+        .close-btn {
+          font-size: 20px;
+        }
+
+        button {
+          font-size: 14px;
+          padding: 8px 16px;
+        }
+      }
+    </style>
+
+    <!-- header start -->
+    <header>
+      <div class="menuSec">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-12 col-lg-3 col-12">
+              <div class="header-logo">
+                <a href="index.html"
+                  ><img src="images/logoblack.webp" loading="lazy" alt="img"
+                /></a>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-9 col-12 text-right">
+              <div class="header_btns">
+                <ul>
+                  <li>
+                    <a href="mailto:info@EliteBookWriters.com">
+                      <img
+                        src="images/env.webp"
+                        loading="lazy"
+                        alt="Call Icon"
+                      />
+
+                      <h5>
+                        Email Info:
+                        <span><span>info@EliteBookWriters.com</span></span>
+                      </h5>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="tel:+1 213 301 0131">
+                      <img
+                        src="images/headphones.webp"
+                        loading="lazy"
+                        alt="Call Icon"
+                      />
+
+                      <h5>Call Now! <span>+1 213 301 0131</span></h5>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="javascript:void(Tawk_API.toggle())"
+                      id="livechat-button-1"
+                      class="btn-theme"
+                      >Live Chat
+                      <img
+                        class="normal-icon"
+                        src="images/comment.webp"
+                        loading="lazy"
+                        alt="img"
+                      />
+                      <img
+                        class="hover-icon"
+                        src="images/comment-orange.webp"
+                        loading="lazy"
+                        alt="img"
+                      />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="container-fluid thank-you-banner">
+      <div class="home-banner-overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <span
+              class="banner-heading text-capitalize"
+              style="
+                font-size: calc(
+                  35px + (62 - 35) * (100vw - 270px) / (1920 - 270)
+                );
+              "
+              >Thank You</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <style>
+      .thank-you-banner {
+        padding: 100px 0px;
+        background: url(./images/thank-you-banner.webp) no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+      span.banner-heading {
+        font-size: calc(35px + (62 - 35) * (100vw - 270px) / (1920 - 270));
+        font-weight: 900;
+        color: white;
+        line-height: normal;
+      }
+    </style>
+
+    <section class="container-fluid section-banner py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div
+            class="col-lg-9 col-md-10 col-sm-11 col-xs-12 text-capital text-center"
+          >
+            <h1>Thank You For Signing Up!</h1>
+            <div class="para-border-center"></div>
+            <p>
+              Thank you for contacting us at elitebookwriters.com Consultants.
+              One of our experts will get in touch with you shortly. Should you
+              have any questions or queries, please feel free to contact our
+              experts at info@elitebookwriters.com or Call us at +1 213 301 0131
+            </p>
+            <br />
+            <h3>Regards</h3>
+            <p><b>Team elitebookwriters.com</b></p>
+            <a class="return-to-home" href="https://elitebookwriters.com/"
+              >Return to Home</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <img
+              src="images/logo-white.webp"
+              loading="lazy"
+              class="footer-logo"
+              alt="Logo"
+            />
+            <ul class="two_btns">
+              <li>
+                <a
+                  href="javascript:void(Tawk_API.toggle())"
+                  id="livechat-button-2"
+                  class="btn-theme d-flex px-5"
+                  >Live Chat
+                  <img
+                    class="normal-icon"
+                    src="images/comment-orange.webp"
+                    loading="lazy"
+                    alt="Comment Icon"
+                  />
+                  <img
+                    class="hover-icon"
+                    src="images/comment.webp"
+                    loading="lazy"
+                    alt="Comment Icon"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-8">
+            <div class="row">
+              <div class="col-md-4">
+                <h6>About Us</h6>
+                <p>
+                  Mexa Book Publishers is a leading US-based company designed to
+                  cater to your book’s publishing needs.
+                </p>
+              </div>
+              <div class="col-md-4">
+                <h6>Quick Links</h6>
+                <ul class="footer-links">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Terms And Conditions</a></li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <h6>Contact Us</h6>
+                <a
+                  href="#"
+                  class="d-flex align-items-start gap-3 text-white mb-3 text-start"
+                  style="line-height: 1"
+                  ><i class="fa fa-envelope"></i> info@EliteBookWriters.com</a
+                >
+                <ul class="d-flex align-items-center gap-3 fs-3">
+                  <li>
+                    <a href="https://www.facebook.com/elitebookwriterss"
+                      ><i class="fa fa-facebook"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                  </li>
+                </ul>
+                <img
+                  src="images/footer-img.webp"
+                  class="img-fluid w-100"
+                  loading="lazy"
+                  alt="image"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="text-center pt-lg-0 pt-4">
+        &copy; <span id="year"></span> EliteBookWriters. All rights reserved.
+      </p>
+    </footer>
+    
+    
+    <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/65f9d2daa0c6737bd12290a5/1hpbtva5e';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+  </body>
+</html>
