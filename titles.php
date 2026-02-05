@@ -6,9 +6,9 @@ $uri_segments = explode('/', $uri_path);
 
 <?php if ($uri_segments[1] == '') { ?>
 
-    <title>Online Book Writers | Creative Book Writing Services In USA</title>
-     <meta name="description" content="Get professional book writing services in USA now. Writing a novel is no longer hard, with expert online book writers and book publishing services in the US."> 
-     <meta name="Keywords" content="Book Writing Services, Professional Book Writers, Book Writing Service, Book Writing Company, Book Writers, Online Book Writers, Online Book Writing Services In USA, Best Book Writing Services, Best Book Writing Service, Book Writing Service In USA, Top Book Writing Service, Creative Book Writers, Professional Book Writing Company, Professional Book Writing Expert, USA book writers, Take My Book Writing, Do My Book Writing, Pay For To Take My Book Writing, Pay To Take My Book Writing, Hire Book Writers"> 
+    <title>Professional Book Writing & Publishing Services | Elite Book Writers</title>
+    <meta name="description" content="Turn your idea into a published book. Elite Book Writers provides professional ghostwriting, editing, publishing, and marketing services for authors. Get a free consultation today."> 
+    <meta name="Keywords" content="professional book writing services, ghostwriting services, book publishing services, book marketing services, book editing services, memoir writing, fiction writing, non-fiction writing, author services, book writers for hire, ghostwriters"> 
     <link rel="canonical" href="https://elitebookwriters.com/" />
     <link rel="alternate" href="https://elitebookwriters.com/" hreflang="en-us" />
 
