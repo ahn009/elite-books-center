@@ -8,23 +8,6 @@
     <?php include 'titles.php'; ?>
     <meta name="robots" content="index, follow">
 
-    <!-- Organization Schema Markup -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Elite Book Writers",
-      "url": "https://elitebookwriters.com",
-      "logo": "https://elitebookwriters.com/assets/images/logo.svg",
-      "description": "Professional book writing, ghostwriting, and publishing services to help authors turn ideas into bestselling books.",
-      "telephone": "+1 (213) 757-2002",
-      "sameAs": [
-        "https://www.trustpilot.com/review/elitebookwriters.com",
-        "https://www.sitejabber.com/reviews/elitebookwriters.com"
-      ]
-    }
-    </script>
-
     <link rel="icon" type="image/x-icon" href="./assets/images/fav-icon.webp">
     <!-- -------------------------------------------------------------------------- -->
     <link rel="stylesheet" href="./assets/style.css">
