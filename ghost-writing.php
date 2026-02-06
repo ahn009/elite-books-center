@@ -5,7 +5,7 @@
     <div class="container">
         <div class="row justify-content-around  align-items-center ">
             <div class="col-lg-6 col-md-6 col-sm-10 col-xs-9 p-0">
-                <span class="banner-heading text-capitalize">100% Anonymous Ghostwriting Services</span>
+                <h1 class="banner-heading text-capitalize">Professional Ghostwriting Services - 100% Anonymous Writing</h1>
                 <p class="text-white">You can't just sit down and write an article or blog post; crafting a book demands
                     time and effort. The process of writing a book can be time-consuming. Ghostwriting is an essential
                     tool for every author, and our services are indispensable.</p>
@@ -52,7 +52,7 @@
             </div>
             <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 p-0 mt-sm-form">
                 <div class="discount-rate">
-                    <h1>50% OFF</h1>
+                    <h3 style="margin: 0; font-size: 1.5rem;">50% OFF</h3>
                 </div>
             </div>
         </div>
@@ -251,7 +251,49 @@
             </div>
         </div>
     </div>
-
+    <!-- Related Services Section for Internal Linking -->
+    <div class="container sec2 py-5" style="background-color: #f8f9fa; border-radius: 8px; margin: 40px 0;">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12 text-center">
+                <h2>Explore Our Other Writing & Publishing Services</h2>
+                <p class="text-muted">Comprehensive book writing solutions beyond ghostwriting</p>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-4">
+            <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 text-center py-3">
+                <a href="book-publishing.php" class="text-decoration-none">
+                    <div style="padding: 20px; border: 1px solid #ddd; border-radius: 8px; transition: all 0.3s;">
+                        <h4 style="color: #0077b5; margin-bottom: 10px;">Book Publishing</h4>
+                        <p style="font-size: 0.9rem; color: #666;">Self-publishing and distribution</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 text-center py-3">
+                <a href="book-marketing.php" class="text-decoration-none">
+                    <div style="padding: 20px; border: 1px solid #ddd; border-radius: 8px; transition: all 0.3s;">
+                        <h4 style="color: #0077b5; margin-bottom: 10px;">Book Marketing</h4>
+                        <p style="font-size: 0.9rem; color: #666;">Promote your published book</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 text-center py-3">
+                <a href="book-cover-design.php" class="text-decoration-none">
+                    <div style="padding: 20px; border: 1px solid #ddd; border-radius: 8px; transition: all 0.3s;">
+                        <h4 style="color: #0077b5; margin-bottom: 10px;">Book Cover Design</h4>
+                        <p style="font-size: 0.9rem; color: #666;">Professional cover artwork</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 text-center py-3">
+                <a href="index.php" class="text-decoration-none">
+                    <div style="padding: 20px; border: 1px solid #ddd; border-radius: 8px; transition: all 0.3s;">
+                        <h4 style="color: #0077b5; margin-bottom: 10px;">Book Writing</h4>
+                        <p style="font-size: 0.9rem; color: #666;">Complete writing services</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
     <div class="container py-5">
         <div class="row">
             <div class="col-12">

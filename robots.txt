@@ -1,3 +1,20 @@
 User-agent: *
+Allow: /
+Disallow: /lp/
+Disallow: /book-publishing-lp/
+Disallow: /amazon-book-services/
+Disallow: /code.php
+Disallow: /code_form.php
+Disallow: */thank-you.php
+Disallow: */thank-you.html
 
-Sitemap: https://www.elitebookwriters.com/sitemap.xml
+# Allow PHP files (these are our main content pages)
+Allow: *.php$
+Allow: /assets/
+Allow: /book-publishing/
+Allow: /google*.html
+
+# Crawl delay and Request rate
+Crawl-delay: 1
+
+Sitemap: https://elitebookwriters.com/sitemap.xml

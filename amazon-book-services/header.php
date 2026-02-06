@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="robots" content="follow, index" />
-
+    <!-- SEO: This is a landing page - prevent duplicate content indexing -->
+    <meta name="robots" content="noindex, follow" />
 
     <title>Publish My Book - Your Guide to Self-Publishing and Book Publishing</title>
     <meta name="description" content="Ready to publish my book? Discover expert tips and resources for publishing a book, including everything you need to know about self-publishing and traditional book publishing. Start your book publishing journey today!" />
-    <link rel="canonical" href="https://elitebookwriters.com/amazon-book-services/" />
-    <link rel="alternate" href="https://elitebookwriters.com/amazon-book-services/" hreflang="en-us" />
+    <!-- Canonical points to main book-publishing page -->
+    <link rel="canonical" href="https://elitebookwriters.com/book-publishing.php" />
+    <link rel="alternate" href="https://elitebookwriters.com/book-publishing.php" hreflang="en-us" />
     <!-- favicon -->
     <link rel="icon" type="./assets/images/fav-icon" href="./assets/images/fav-icon.webp">
 

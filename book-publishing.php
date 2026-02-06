@@ -5,8 +5,7 @@
     <div class="container">
         <div class="row justify-content-around  align-items-center ">
             <div class="col-lg-6 col-md-6 col-sm-10 col-xs-9 p-0">
-                <span class="banner-heading text-capitalize">Are You Ready to Publish Your Book? Let's Achieve This Goal
-                    Together!</span>
+                <h1 class="banner-heading text-capitalize">Professional Book Publishing Services - Get Your Book Published Today!</h1>
                 <p class="text-white">With our experience and our expertly crafted book publishing and book distribution
                     services, we at Elite Book Writers will elevate your publications to new heights. Our Book
                     publishers online will take care of all the books you need to reach your writing career goal.</p>
@@ -244,6 +243,50 @@
                     experts are the ones to call.</p>
                 <a href="javascript:;" onclick="document.getElementById('overlayModal').style.display='block'">
                     <button class="header-btn" style="background-color: #0077b5;"><span>Get Started</span></button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Related Services Section for Internal Linking -->
+    <div class="container sec2 py-5" style="background-color: #f8f9fa; border-radius: 8px; margin: 40px 0;">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12 text-center">
+                <h2>Our Complete Book Writing & Publishing Suite</h2>
+                <p class="text-muted">From writing to marketing, we cover every aspect of your book's journey</p>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-4">
+            <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 text-center py-3">
+                <a href="ghost-writing.php" class="text-decoration-none">
+                    <div style="padding: 20px; border: 1px solid #ddd; border-radius: 8px; transition: all 0.3s;">
+                        <h4 style="color: #0077b5; margin-bottom: 10px;">Ghost Writing</h4>
+                        <p style="font-size: 0.9rem; color: #666;">Professional writers for your story</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 text-center py-3">
+                <a href="book-marketing.php" class="text-decoration-none">
+                    <div style="padding: 20px; border: 1px solid #ddd; border-radius: 8px; transition: all 0.3s;">
+                        <h4 style="color: #0077b5; margin-bottom: 10px;">Book Marketing</h4>
+                        <p style="font-size: 0.9rem; color: #666;">Promote your published book</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 text-center py-3">
+                <a href="book-cover-design.php" class="text-decoration-none">
+                    <div style="padding: 20px; border: 1px solid #ddd; border-radius: 8px; transition: all 0.3s;">
+                        <h4 style="color: #0077b5; margin-bottom: 10px;">Book Cover Design</h4>
+                        <p style="font-size: 0.9rem; color: #666;">Professional cover artwork</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12 text-center py-3">
+                <a href="index.php" class="text-decoration-none">
+                    <div style="padding: 20px; border: 1px solid #ddd; border-radius: 8px; transition: all 0.3s;">
+                        <h4 style="color: #0077b5; margin-bottom: 10px;">Book Writing</h4>
+                        <p style="font-size: 0.9rem; color: #666;">Complete writing services</p>
+                    </div>
                 </a>
             </div>
         </div>

@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="robots" content="follow, index" />
+    <!-- SEO: This is a landing page - prevent duplicate content indexing -->
+    <meta name="robots" content="noindex, follow" />
 
-    <link rel="canonical" href="https://elitebookwriters.com/lp/book-publishing/" />
-    <link rel="alternate" href="https://elitebookwriters.com/lp/book-publishing/" hreflang="en-us" />
+    <link rel="canonical" href="https://elitebookwriters.com/book-publishing.php" />
+    <link rel="alternate" href="https://elitebookwriters.com/book-publishing.php" hreflang="en-us" />
     <!-- favicon -->
     <link rel="icon" type="image/x-icon" href="./assets/images/fav-icon.webp">
 
