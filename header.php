@@ -127,30 +127,57 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     }
 </style>
 
-<!-- JSON-LD Structured Data -->
+<!-- JSON-LD Structured Data - Organization Schema (ENTITY CONSISTENCY) -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "Elite Book Writers",
+  "alternateName": "Elite Books Center",
   "url": "https://elitebookwriters.com",
   "logo": "https://elitebookwriters.com/assets/images/logo.svg",
-  "description": "Professional book writing, ghostwriting, publishing, marketing, and cover design services in USA",
+  "description": "Professional book writing services including ghostwriting, publishing, marketing, and book cover design. Award-winning team of expert writers helping authors publish and promote bestselling books.",
   "sameAs": [
-    "https://www.facebook.com/elitebookwriters",
-    "https://www.twitter.com/elitebookwriters",
-    "https://www.linkedin.com/company/elite-book-writers"
+    "https://www.facebook.com/elitebookwriterss",
+    "https://www.trustpilot.com/review/elitebookwriters.com",
+    "https://www.sitejabber.com/reviews/elitebookwriters.com"
   ],
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "contactType": "Customer Service",
-    "telephone": "+1-213-757-2002",
-    "email": "contact@elitebookwriters.com"
-  },
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "contactType": "Customer Service",
+      "telephone": "+1 (213) 757-2002",
+      "email": "info@elitebookwriters.com",
+      "areaServed": "US"
+    },
+    {
+      "@type": "ContactPoint",
+      "contactType": "Sales",
+      "telephone": "+1 (213) 757-2002",
+      "email": "sales@elitebookwriters.com"
+    }
+  ],
   "address": {
     "@type": "PostalAddress",
+    "streetAddress": "2050 Cheshire bridge Rd Ne Apt 1421",
+    "addressLocality": "Atlanta",
+    "addressRegion": "GA",
+    "postalCode": "30324",
     "addressCountry": "US"
-  }
+  },
+  "foundingDate": "2015",
+  "priceRange": "$$$",
+  "areaServed": {
+    "@type": "Country",
+    "name": "United States"
+  },
+  "serviceType": [
+    "Ghostwriting",
+    "Book Publishing",
+    "Book Marketing",
+    "Book Cover Design",
+    "Book Editing"
+  ]
 }
 </script>
 

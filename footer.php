@@ -41,14 +41,14 @@
                                 </li>
                                 <li><a href="mailto:info@elitebookwriters.com" class="text-decoration-none text-lowercase"><i class="fa-solid fa-envelope pe-2"></i>info@elitebookwriters.com</a></li>
                                 <li class="address-c"><i class="fa-solid fa-map-location-dot pe-2"></i>
-                                2050 Cheshire bridge Rd Ne Apt 1421, Atlant Georgia, United States 30324
-                                    <!--5900 Balcones Drive STE 100, Austin, Texas, 78731-->
-                                    <!--21423 Baldovin Way Tomball, TX 77375-1928-->
+                                2050 Cheshire Bridge Rd NE, Apt 1421
+                                <br>Atlanta, GA 30324
+                                <br>United States
                                 </li>
                             </ul>
-                            <a href="https://www.facebook.com/elitebookwriterss" target="_blank" class="text-center"><i class="fa-brands fa-square-facebook me-2 fs-4"></i></a>
-                            <a href="" class="text-center"><i class="fa-brands fa-instagram me-2 fs-4"></i></a>
-                            <a href="" class="text-center" target="_blank"><i class="fa-brands fa-square-x-twitter fs-4"></i></a>
+                            <a href="https://www.facebook.com/elitebookwriterss" target="_blank" rel="noopener noreferrer" class="text-center"><i class="fa-brands fa-square-facebook me-2 fs-4" title="Elite Book Writers Facebook"></i></a>
+                            <a href="https://www.trustpilot.com/review/elitebookwriters.com" target="_blank" rel="noopener noreferrer" class="text-center"><i class="fa-brands fa-star me-2 fs-4" title="Trustpilot Reviews"></i></a>
+                            <a href="https://www.sitejabber.com/reviews/elitebookwriters.com" target="_blank" rel="noopener noreferrer" class="text-center" title="Sitejabber Reviews"><i class="fa-brands fa-square-x-twitter fs-4"></i></a>
                         </div>
                     </div>
                 </div>

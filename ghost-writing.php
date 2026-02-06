@@ -1,4 +1,5 @@
 <?php include 'header.php'; ?>
+<?php include 'faq-schema-ghostwriting.php'; ?>
 
 <section class="container-fluid ghost-writing-banner">
     <div class="home-banner-overlay"></div>

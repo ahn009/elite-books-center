@@ -19,18 +19,10 @@
                 <h5>KNOW WHO WE ARE</h5>
                 <h2>We Would Proudly Like To Introduce Elite Book Writers Team</h2>
                 <div class="para-border-left"></div>
-                <p class="about-p-line-h">Our goal is to provide authors, whether up-and-coming or experienced
-                    professionals, with an opportunity to become prosperous and well-known writers.</p>
-                <p class="about-p-line-h">With constant expertise and extensive knowledge of this cutthroat field, our
-                    team of book writers consistently meets or exceeds client expectations and lives up to our high
-                    expectations for quality and reliability.</p>
-                <p class="about-p-line-h">Every time, our clients are delighted by the unique and high-quality content
-                    that our creative book writers produce because they put their writing skills to the test. Although
-                    we faced many challenges on our path to greatness, we persevered and achieved unprecedented success.
-                </p>
-                <p class="about-p-line-h">Since our clients are our most valuable resource, we put them first and work
-                    with them until the end. A long list of illustrious clients—from novelists and publishing houses to
-                    celebrities and business executives—attests that our writing services are second to none.</p>
+                <p class="about-p-line-h"><strong>Elite Book Writers</strong> is a premier book writing and publishing services company founded in 2015. Our mission is to provide authors, whether up-and-coming or experienced professionals, with an opportunity to become prosperous and well-known writers.</p>
+                <p class="about-p-line-h">With constant expertise and extensive knowledge of this cutthroat field, our team of professional book writers consistently meets or exceeds client expectations and lives up to our high expectations for quality and reliability.</p>
+                <p class="about-p-line-h">Every time, our clients are delighted by the unique and high-quality content that our creative ghostwriters and book marketing experts produce because they put their skills to the test. Although we faced many challenges on our path to greatness, we persevered and achieved unprecedented success.</p>
+                <p class="about-p-line-h">Since our clients are our most valuable resource, we put them first and work with them until the end. A long list of illustrious clients—from novelists and publishing houses to celebrities and business executives—attests that Elite Book Writers' services are second to none.</p>
             </div>
             <div class="col-lg-6 col-md-10 col-sm-10 col-xs-10 text-center my-3 ">
                 <img src="./assets/images/know-who-we-are.webp" alt="">

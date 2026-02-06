@@ -1,4 +1,5 @@
 <?php include 'header.php'; ?>
+<?php include 'faq-schema-book-publishing.php'; ?>
 
 <section class="container-fluid book-publishing-banner">
     <div class="home-banner-overlay"></div>
